@@ -1,0 +1,468 @@
+$blue: #063C56;
+$green: #12C97A;
+$grey: #5C737F;
+$screenMin: 1280px;
+$screenSmall: 1200px;
+$dropShadow:-5px -4px 5px #00000045,
+0 1px 5px #00000038;
+
+
+@font-face {
+  font-family: "Main";
+  src: url(./Roboto-Light.ttf);
+}
+
+@font-face {
+  font-family: "Bold";
+  src: url(./Roboto-Medium.ttf);
+}
+
+
+body {
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+  font-family: "Main";
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Bold";
+  font-weight: lighter;
+}
+
+h3 {
+  font-size: 27px;
+}
+
+#Background {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+
+  div {
+    width: 544px;
+    height: 100%;
+    background: url(../images/bluebackground.png);
+    background-size: cover;
+    background-position: 0px -4px;
+    float: right;
+
+  }
+
+  .blueMenu {
+    height: 90px !important;
+  }
+}
+
+#Content {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  text-align: -webkit-center;
+  text-align: -moz-center;
+}
+
+.topBar {
+  width: 100%;
+  height: 90px;
+  box-shadow: $dropShadow;
+  -webkit-box-shadow: $dropShadow;
+}
+
+
+.card{
+  border: 0px !important;
+}
+
+.logo {
+  height: 70px;
+  float: left;
+  margin-left:30px;
+}
+
+ul.navbar-nav {
+  margin-top: 20px;
+}
+
+button.btn.btn-outline-success.workshopBtn {
+  width: 200px;
+}
+
+.wrapper {
+  width: 1260px;
+
+  @media screen and (max-width:$screenMin) {
+    width: 1220px;
+  }
+}
+
+#menu {
+  padding: 0px;
+  margin: 0px;
+  float: right;
+
+  li {
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 15px;
+    cursor: pointer;
+    color: white;
+  }
+
+  li:hover {
+    color: $green;
+  }
+
+  .current {
+    color: $green !important;
+  }
+}
+
+
+.slider {
+  float: left;
+  margin-top: 60px;
+
+  p,
+  h1,
+  h3 {
+    margin: 0px 0px 5px 0px;
+    text-align: left;
+  }
+
+  p,
+  h3 {
+    color: $grey;
+  }
+
+  p {
+    line-height: 27px;
+  }
+
+  hr {
+    width: 100px;
+    height: 2px;
+    background: $green;
+    border: 0px;
+    float: left;
+  }
+}
+
+
+button {
+  margin-top: 47px;
+  width: 158px;
+  height: 40px;
+  border: 0px;
+  border-radius: 100px;
+  color: white;
+  outline: none;
+  cursor: pointer;
+  background: $green;
+}
+
+.researchBtn {
+  background: $grey;
+  margin-left: 25px;
+}
+
+.countCircles {
+  width: 20%;
+  height: 40px;
+  display: flex;
+  margin-top: 40px;
+
+  div {
+    width: 5px;
+    height: 5px;
+    border: 0.5px solid $grey;
+    margin-left: 5px;
+    border-radius: 10px;
+
+
+  }
+
+
+}
+
+#circle1 {
+  background: $grey;
+}
+
+#contactBlock {
+  width: 669px;
+  height: 420px;
+  margin-top: 60px;
+  box-shadow: $dropShadow;
+  background: white;
+  float: right;
+  border-radius: 5px;
+  margin-right: 50px;
+
+
+  div {
+    width: 40%;
+    height: inherit;
+    float: right;
+    background: $blue;
+
+    h3 {
+      font-size: 20px;
+      color: $green;
+      font-weight: lighter;
+      text-align: left;
+      margin-left: 25px;
+      margin-bottom: 5px;
+    }
+
+    p {
+      color: white;
+      font-size: 13px;
+      text-align: left;
+      margin-left: 25px;
+      margin-top: 0px;
+    }
+  }
+
+  form {
+    float: left;
+    text-align: left;
+    margin-left: 25px;
+
+    input {
+      height: 40px;
+      width: 318px;
+      border: 0px;
+      border-bottom: 1px solid $blue;
+      margin-bottom: 26px;
+      outline: none;
+      padding-left: 5px;
+      color: $blue;
+    }
+
+    textarea {
+      width: 318px;
+      color: $blue;
+      padding-left: 5px;
+      border: 0px;
+      border-bottom: 1px solid $blue;
+      outline: none;
+      height: 100px;
+    }
+
+    button {
+      background: $blue;
+    }
+
+    p {
+      color: $blue;
+    }
+  }
+}
+
+
+
+#mobileMenu {
+  display: none;
+}
+
+#Research {
+  text-align: left;
+  margin-left: 15px;
+
+  h3 {
+    color: $grey;
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
+
+  h1 {
+    margin-top: 0px;
+  }
+
+  p {
+    margin-bottom: 0px;
+    margin-top: 40px;
+    color: $grey;
+    width: 1000px;
+    line-height: 31px;
+    text-align: justify;
+  }
+
+  hr {
+    width: 100px;
+    height: 2px;
+    background: $green;
+    border: 0px;
+    float: left;
+  }
+
+  ul {
+    line-height: 27px;
+    width: 1000px;
+    text-align: justify;
+    color: #5C737F;
+
+    li{
+      margin-top: 20px;
+    }
+  }
+}
+
+
+.w3-modal{
+  z-index: 9999 !important;
+}
+
+/*navigation*/
+nav.navbar.navbar-expand-lg.navbar-light.bg-light {
+  height: 80px;
+}
+
+
+.w3-third.card {
+  padding: 0px !important;
+}
+
+div#navbarNavDropdown {
+  background: #f8f9fa;
+  z-index: 99;
+}
+
+/*# sourceMappingURL=index.css.map */
+
+@media screen and (max-width:1200px) {
+  .logo {
+    margin-top: 0px;
+    height: 62px;
+  }
+
+  .form-inline {
+    background: #f8f9fa;
+    z-index: 99;
+  }
+
+  .wrapper {
+    width: 100%;
+  }
+
+  #Research {
+
+    p, ul {
+      width: 85%;
+    }
+  }
+
+  #Background div {
+    width: 100%;
+    background: url(../images/mobileBackground.png);
+    background-size: cover;
+  }
+
+  #mobileMenu {
+    display: inline-block;
+  }
+
+  #menu {
+    display: none;
+  }
+
+  .slider {
+    margin-left: 30px;
+  }
+
+  .researchBtn {
+    background: #063C56;
+    color: white;
+  }
+
+  // .slider p,
+  // .slider h3 {
+  //   // color: white;
+  // }
+
+
+
+.navRedCapBtn{
+  width: 150px;
+}
+
+  .slider p{
+    font-size: 13px;
+  }
+
+  .slider h1 {
+    color: #12C97A;
+    font-size: 20px;
+  }
+
+  #mobileMenu {
+    display: inline-block;
+    float: right;
+    margin-top: 28px;
+    margin-right: 30px;
+  }
+
+  .countCircles {
+    margin-top: 72px;
+  }
+
+  .slider button {
+    float: left;
+  }
+
+  button {
+    width: 120px;
+    height: 35px;
+  }
+
+
+  #contactBlock {
+    width: 100%;
+    float: left;
+  }
+
+  #contactBlock form {
+    float: unset;
+  }
+
+  #contactBlock div {
+    width: 100%;
+    height: 254px;
+    padding-top: 20px;
+    margin-top: 20px;
+  }
+
+  #menu li {
+    display: block;
+  }
+
+  #menu {
+    padding: 0px 22px 18px 0px;
+    margin: 0px;
+    margin-right: 40px;
+    margin-top: 18px;
+    background: #235369;
+    border-radius: 5px;
+    -webkit-box-shadow: -5px -4px 5px #00000045, 0 1px 5px #00000038;
+    box-shadow: -5px -4px 5px #00000045, 0 1px 5px #00000038;
+    position: unset;
+  }
+
+  #dropdown {
+    width: 159px;
+    height: 90px;
+    float: right;
+    position: relative;
+    z-index: 1;
+  }
+
+  #dropdown:hover {
+    #menu {
+      display: block;
+    }
+  }
+
+}

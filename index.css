@@ -1,0 +1,38 @@
+.h5_left{
+    margin:15px 15px;
+}
+
+.list-group-item{
+    cursor: pointer;
+}
+
+nav {
+    position: fixed !important;
+    width: 100% !important;
+    z-index: 99 !important;
+    /* filter: drop-shadow(1px 1px 1px black); */
+}
+
+/*
+#leftSec{
+    position: fixed !important;
+}
+*/
+.container {
+    padding-top: 63px;
+}
+
+
+.areas_of_axpertise_filter{
+
+        margin: 0 auto;
+        background: #E8E8E8;
+		padding-left:10px;
+		border-radius: 8px;
+	
+}
+
+.bgColor{
+    background-color: midnightblue;
+}
+
