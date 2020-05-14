@@ -85,48 +85,58 @@
 
         <br><br><br><br>
         <div class="container-fluid">
-        <div class="wrapper" style="text-align: left;">
             <br/>
             <h1 class="sliderTitle aboutHeading">Contact WitsBits</h1>
             <p id="contactMesg">Need to get in touch with us? We're all ears.</p>
+            <div id="contact-info" class="row">
 
-            <ul class="list-group list-group-flush">
-                <li class="list-group-item"><i class="fas fa-map-marked-alt"></i> 31 Princess of Wales Terrance, Parktown, Johannesburg, 2193 View map</li>
-                <li class="list-group-item"><i class="far fa-clock"></i> Mon - Fri: 8:00am - 4:30pm</li>
-                <li class="list-group-item"><i class="fas fa-phone-volume"></i> (011) 717 6634</li>
-              </ul>
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <div id="form">
+                        <form action="https://formspree.io/informatics.health@wits.ac.za" method="POST">
+                            <div class="form-group">
+                                <label><strong>Email address</strong></label>
+                                <input type="email" name="email"  class="form-control" placeholder="name@example.com" required>
+                            </div>
+                            <div class="form-group">
+                                <label><strong>Full name</strong></label>
+                                <input type="text"  name="fullName" class="form-control"  placeholder="John Doe" required>
+                            </div>
+                            <div class="form-group">
+                                <label><strong>Message</strong></label>
+                                <textarea class="form-control" name="message"  rows="3" required></textarea>
+                            </div>
+                            <button class="btn btn-success"><strong>Send</strong></button>
+                        </form>
+                        <span>Email us here</span>
+                    </div>
+                </div>
 
-              <br/>
-            <form action="https://formspree.io/informatics.health@wits.ac.za" method="POST">
-                <div class="form-group">
-                  <label for="exampleFormControlInput1">Email address</label>
-                  <input type="email" name="email"  class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" required>
-                </div>
-                <div class="form-group">
-                  <label for="exampleFormControlSelect1">Full name</label>
-                  <input type="text"  name="fullName" class="form-control" id="exampleFormControlInput1" placeholder="John Doe" required>
-                </div>
-                <div class="form-group">
-                  <label for="exampleFormControlTextarea1">Message</label>
-                  <textarea class="form-control" name="message"  id="exampleFormControlTextarea1" rows="3" required></textarea>
-                </div>
-                <button class="btn btn-success">Send</button>
-              </form>
-              <br/>
-              <br/>
-            <!-- <div id='contactBlock'>
-                <form action="https://formspree.io/informatics.health@wits.ac.za" method="POST">
-                    <a name="contact">
-                        <p>Contact</p>
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <a href="https://goo.gl/maps/xTsH5R1HA92ZzS7V6" target="_blank">
+                        <div id="map" class="map-tile">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3580.5772161842815!2d28.0445513148426!3d-26.177895169261436!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e950c1445953dd5%3A0x138455a3d18f93ea!2sWits%20Health%20Consortium!5e0!3m2!1sen!2sza!4v1589454010959!5m2!1sen!2sza"
+                                    width="100%" height="400" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0">
+
+                            </iframe>
+                            <span>Map</span>
+                        </div>
                     </a>
-                    <input type="text" name="fullName" placeholder="Full Name" required><br />
-                    <input type="email" name="email" placeholder="Email Address" required><br />
-                    <textarea name="message" placeholder="Message" required></textarea><br />
-                    <button type="submit">Submit</button>
-                </form>
-            </div> -->
+                </div>
 
-        </div>
+                <div class="clearfix visible-md-block visible-lg-block"></div>
+
+                <div class="col-md-4 col-sm-12 col-xs-12">
+                    <div id="details">
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item"><i class="fas fa-map-marked-alt"></i><strong>Address</strong> <br> 31 Princess of Wales Terrance, <br> Parktown, Johannesburg, 2193</li>
+                            <li class="list-group-item"><i class="far fa-clock"></i><strong>Hours</strong> <br> Mon - Fri: 8:00am - 4:30pm <br> Sat & Sun: Closed </li>
+                            <li class="list-group-item"><i class="fas fa-phone-volume"></i><strong>Contact</strong> <br> (011) 717 6634</li>
+                        </ul>
+                        <span>Office Details</span>
+                    </div>
+                </div>
+
+            </div>
         </div>
     </div>
         
