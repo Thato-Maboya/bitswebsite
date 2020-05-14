@@ -240,6 +240,38 @@ nav div.collapse ul li.dropdown:hover div{
   display: block;
 }
 
+/* CONTACT STYLE */
+#details, #form, #map{
+  height: 400px;
+  width: 100%;
+  background-color: white;
+  margin-bottom: 15px;
+  position: relative;
+  overflow: hidden;
+}
+#details:hover, #form:hover, #map:hover{
+  box-shadow: 0 1px 5px 1px white;
+}
+#details span, #form span, #map span{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.6em;
+  text-transform: uppercase;
+  background-color: #000;
+  color: #fff;
+  opacity: 0.9;
+}
+form{
+  padding: 10px;
+}
+form label{
+  color: black;
+}
+
+/* END OF CONTACT STYLE */
 
 @media screen and (max-width: 1280px) {
   .wrapper {
