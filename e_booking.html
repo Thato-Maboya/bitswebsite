@@ -115,8 +115,16 @@
                             <input type="date"  name="date" class="form-control"  placeholder="21-02-1998" required>
                         </div>
                         <div class="form-group">
-                            <label><strong>Time preference</strong></label>
-                            <select name="time">
+                            <label><strong>Consultation type preference</strong></label><br>
+                            <select name="type_of_consultation" style="width: 100%">
+                                <option>Select type...</option>
+                                <option value="Online consultation">Online consultation</option>
+                                <option value="Personal consultation">Personal consultation</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label><strong>Time preference</strong></label><br>
+                            <select name="time" style="width: 100%">
                                 <option>Select time...</option>
                                 <option value="Mon - Tue, 10am to 11am">Mon - Tue, 10am to 11am</option>
                                 <option value="Wed - Fri, 10am to 11am">Wed - Fri, 10am to 11am</option>
