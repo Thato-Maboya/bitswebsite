@@ -23,6 +23,11 @@ function Slider() {
     var timer = setInterval(nextSlide, 5000);
 }
 
+function goToResearch(){
+    console.log("click works");
+    document.location = "/research_info.html";
+}
+
 function nextSlide() {
     if (slideCount == 0) {
         $("#miniText").html(slideInfo[1].miniText);
