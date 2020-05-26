@@ -23,6 +23,10 @@
   cursor: pointer;
 }
 
+.service-link{
+  cursor: pointer;
+}
+
 body {
   width: 100%;
   padding: 0px;
