@@ -263,7 +263,7 @@ nav div.collapse ul li.dropdown:hover div{
   width: 100%;
   text-align: center;
   font-size: 1.6em;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   background-color: #000;
   color: #fff;
   opacity: 0.9;
