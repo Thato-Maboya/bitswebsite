@@ -28,6 +28,11 @@ function goToResearch(){
     document.location = "/bitswebsite/research_info.html";
 }
 
+function goToService(){
+    console.log("click works");
+    document.location = "/bitswebsite/service_info.html";
+}
+
 function nextSlide() {
     if (slideCount == 0) {
         $("#miniText").html(slideInfo[1].miniText);
