@@ -461,6 +461,11 @@ button {
 #covid19Menu {
   display: inline-block;
 }
+/* WHC Logo Id for displaying in big screen like laptop only*/
+#WHClogo {
+  display: inline-block;
+}
+
 #hide {
   display: none;
 }
@@ -531,6 +536,10 @@ div#navbarNavDropdown {
   }
   /* Hiding Covid-19 Id button for small screen like mobile */
   #covid19Menu {
+    display: none;
+  }
+  /* Hiding WHC Logo on small screen like tablet and mobile */
+  #WHClogo {
     display: none;
   }
   #hide {
