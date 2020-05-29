@@ -61,3 +61,13 @@ function nextSlide() {
     }
 }
 
+
+// Hiding the menu navbar-toggle when you click outside the menu bar
+$(function () {
+    $("#nav").blur(function (event) {
+        var screenWidth = window.innerWidth;
+        if (screenWidth < 767){
+            $("#navbarNavDropdown").collapse('hide');
+        }
+    });
+});
