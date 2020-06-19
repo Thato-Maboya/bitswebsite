@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-    <head>
+<head>
     <link rel="stylesheet" href="css/index.css"/>
     <link rel="stylesheet" href="css/animate.css"/>
     <link rel="icon" href="images/icon.png"/>
@@ -18,28 +18,28 @@
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-151911858-1"></script>
     <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
 
-    gtag('config', 'UA-151911858-1');
+        gtag('config', 'UA-151911858-1');
     </script>
 
-    </head>
-    <body style="background-color: #0B2C41">
+</head>
+<body style="background-color: #0B2C41">
 
-    <div id="Background">
-        <div></div>
-    </div>
+<div id="Background">
+    <div></div>
+</div>
 
-    <div id="Content">
+<div id="Content">
 
-        <!--navigation bar-->
+    <!--navigation bar-->
         <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
             <!-- <a class="navbar-brand" href="#">Navbar</a> -->
             <a href="home.html"><img src="images/logo-stacked.png" alt="WitsBITS Stacked logo" class="logo"></a>
@@ -50,7 +50,7 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
               <ul class="navbar-nav" >
-                <li class="nav-item" >
+                <li class="nav-item active" >
                    <a class="nav-link" href="home.html">Home<span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
@@ -86,231 +86,34 @@
             </div>
             <a id="WHClogo" href="https://www.witshealth.co.za/" style="float: right"><img style="float: right; height: 70px; " src="images/WHC%20LOGO.png" alt="WHC logo"></a>
           </nav>
-        <!-- <div class="topBar"> 
-            <div class="container">
-                <img src="images/logo-horisontal.png" class="logo">
-                <div id="dropdown">
-                    <button id="mobileMenu">Menu</button>
-                    <ul id='menu'>
-                        <li class='current'>Home</li>
-                        <li onclick='document.location = "" '>About</li>
-                        <li onclick='document.location = "clinical.html" '>Clinical</li>
-                        <li onclick='document.location = "research.html" '>Research</li>
-                        <li onclick='document.location = "Contact.html" '>Contact</li>
-                    </ul>
-                </div>
-            </div>
-        </div> -->
 
-        <br><br><br><br>
-        <div class="container-fluid">
-            <br id="hide1"><br id="hide2">
-            <div class="w3-row-padding w3-margin-top">
-                <div class="w3-third card border">
-                    <div class="w3-card cardL w3-container border">
-                            <div class="slider">
-                                    <p id="miniText" style="font-size: larger">Welcome to the</p>
-                                    <h3 id="subMini">Wits Division of</h3>
-                                    <h1 id="boldTitle" style="color: black">Biomedical Informatics</h1>
-                                    <hr>
-                                    <p id="mainText"><br/><br>
-                                        A multifaceted team of Doctors, Scientists,
-                                        Developers and Researchers dedicated to
-                                        improving healthcare through technology and
-                                        research.<br/>
-                                    </p>
-                                    
-                            </div>
-                    </div>
-                </div>
+    <br><br><br><br>
+    <div class="container-fluid">
 
-                <div class="w3-third card border">
-                    <a href="javascript:void(0)" onclick="document.getElementById('Clinical').style.display='block'">
-                        <div class="w3-card cardL w3-container border">
-                                    <div class="slider">
-                                            <p id="miniText"></p><br/>
-                                            <h3 id="subMini">Clinical Informatics</h3>
-                                            <h1 id="boldTitle" style="color: black">Electronic Discharge</h1>
-                                            <hr>
-                                            <p id="mainText"><br/><br>
-                                                The team  has development electronic
-                                                healthcare systems for the Wits affiliated
-                                                hospitals, Charlotte Maxeke Academic Hospital, Helen Joseph Hospital
-                                                and Chris Hani Baragwanath Academic Hospital.<br/>
-                                            </p><br/><br/>
-                                    </div>
-                        </div>
-                    </a>
-                </div>
+        <br id="hide1"><br id="hide2">
+        <div class="w3-row-padding w3-margin-top">
 
-                <div class="w3-third card border">
-                    <a href="javascript:void(0)" onclick="document.getElementById('Research').style.display='block'">
-                        <div class="w3-card cardL w3-container border">
-                            <div class="slider">
-                                    <p id="miniText"></p><br/>
-                                    <h3 id="subMini">Research Informatics</h3>
-                                    <h1 id="boldTitle" style="color: black">REDCap</h1>
-                                    <br id="hide">
-                                    <hr>
-                                    <p id="mainText"><br/><br>
-                                        The faculty hosts a web-based research  data
-                                        management tool called REDCap, which is quicker
-                                        and more secure than paper-based.<br/>
-                                    </p>   
-                            </div>
-                        </div>
-                    </a>
-                </div>
-            </div>
-        <!--
-            <div class="slider footerBtns">
-                <button class="btn btn-success Extend" onclick='document.location = "about.html" '>Read more about us</button>
-                <a href="https://redcap.core.wits.ac.za/redcap/#eu_workshops" target="_blank"><button class="btn btn-outline-success workshopBtn">Services</button></a>
-                <a href="events.html" target=""><button class="btn btn-success eventsBtn">News and Events</button></a>
-                <a href="https://sacoronavirus.co.za/" target="_blank"><button class="btn btn-outline-success workshopBtn" id="covid19Menu">More about SA Covid-19</button></a>
-            </div> 
-        -->
-    </div>
-       
-        
-    </div>
-        
-        <div class="wrapper">
+            <div class=" card border" style="background: url(images/Witsbits_WebsiteLanding_page_background.jpg); width: 100%; background-repeat: no-repeat; background-size: cover">
+                <!-- style="background: url(images/Healthcare-Informatics.jpg); width: 100%; background-repeat: no-repeat; background-size: cover" -->
+                <div class="w3-card cardL w3-container border">
 
-            <div id="Research" class="w3-modal">
-                <div class="w3-modal-content w3-animate-zoom" style="padding:32px">
-                    <div class=" w3-white ">
-                      <i onclick="document.getElementById('Research').style.display='none'" class="fa fa-remove w3-right w3-button w3-transparent w3-xxlarge"></i>  
-    
-                            <a href="https://redcap.core.wits.ac.za/redcap/" target="_blank"><img style="margin-left:0px" src="images/REDCap Africa.PNG" alt="REDCap logo" class="logo" id="REDCap"></a>
-                            <br/><br><br/><br>
-                            <h1>REDCap</h1>
-                            <hr>
-                            <br><br>
-                
-                                The faculty hosts a web-based research data
-                                management tool called REDCap, which is quicker
-                                and more secure than paper-based.
-
-                                REDCap was developed specifically for use
-                                by clinicians and scientists, and has an intuitive
-                                interface that most find easy to adopt. We also
-                                provide training sessions, one-on-one project
-                                design consultation and helpdesk support.
-
-                                The Wits REDCap platform was launched in
-                                August 2012, joining an international consortium
-                                of  over 1700 organisations, and  we now have  over
-                                16000 user accounts , around 400 individual logins
-                                per day and over 1100 projects.
-                            <br/>
-                            <br/>
-                            <br/>
-
-                        <h3 id="card-sub-heading">Why use RedCap?</h3>
-                            <p id="card-text">
-                                    The following are some key reasons why researchers should utilize REDCap for their research studies:
-                                    <ul style="color: black">
-                                        <li><b>Secure</b></li>
-                                        Full user authentication (log-on/password), customizable user rights restictions, real-time data validation, centralized & secure data storage,data de-identification options, and a full audit trails.
-                                        <li><b>Web-based</b></li>
-                                        Enter data or build your database from anywhere in the world over a secure web connection with authentication and data logging.
-                                        <li><b>Fast</b></li>
-                                        Quick project start-up. Clinical report forms can be implemented without the need for a programmer. Concept to production-level database is possible in less than one day.
-                                        <li><b>Easy</b></li>
-                                        Intuitive user interface and work flow, readily available online training materials make it easy to get started.
-                                        <li><b>Full customizable</b></li>
-                                        You are in total control of shaping your database.
-                                        <li><b>Autonomous utilization</b></li>
-                                        Research groups have complete autonomy and control to add new users and set several levels of specific user rights.
-                                        <li><b>Data export</b></li>
-                                        Seamless data downloads to common statistical packages (including SPSS, SAS, Stata, and R) and to the .csv (comma separated values) format, the most common import and export format for spreadsheets <br>and databases.
-                                        <li><b>Data import</b></li>
-                                        Data import capability through Microsoft Excell Advanced features - File uploadng, auto-validation, branching logic, calculated fields etc.
-                                    </ul>
-                            </p>
-
-                    </div>
-            
-                        <p><a href="https://redcap.core.wits.ac.za/redcap/" target="_blank"><button class="btn btn-success">REDCap Login</button></a></p>
-                </div>
-            </div>
-            
-            <div id="Clinical" class="w3-modal">
-                <div class="w3-modal-content w3-animate-zoom" style="padding:32px">
-                    <div class=" w3-white ">
-                      <i onclick="document.getElementById('Clinical').style.display='none'" class="fa fa-remove w3-right w3-button w3-transparent w3-xxlarge"></i>  
-    
-                        <a href="https://dischargedb.core.wits.ac.za/" target="_blank"><img style="margin-left:0px" src="images/ED.PNG" alt="ED logo" class="logo" id="ED1"></a>
-                        <a href="https://www.ebisu.co.za/" target="_blank"><img src="images/DataDoc.PNG" alt="DataDoc logo" class="logo" id="DataDoc1"></a>
-                        <br/><br><br/><br><br>
-                        <h1>ED & DataDoc</h1>
-                        <hr>
-                        <br><br>
-                        <p>
-                            The team  has development electronic 
-                            health care systems, (ED and DataDoc) for the Wits affiliated
-                            hospitals, Charlotte Maxeke Academic Hospital, Helen Joseph Hospital
-                            and Chris Hani Baragwanath Academic Hospital.
-                        </p><br/><br/>
-
-
-                        <h3>Why use ED (Electronic Discharge)?</h3>
-                        <p id="card-text">
-
-                            Benefits:
-                            <ul>
-                                <li>Reduce average length of stay as patients can get discharged faster</li>
-
-                                <li>Reduces litigation bills by eliminating TTO medication errors</li>
-
-                                <li>Get paid more for the care you have given with our accurate and automatic coding</li>
-
-                                <li>Saves bed time and money by option to offload pharmacy dispensing to community pharmacy</li>
-
-                                <li>Saves clinicians time by auto-filling in important data</li>
-
-                                <li>Doctors will be able to get patients discharged in minutes from any computer or tablet in the hospital</li>
-
-                                <li>Display the most relevant information for GPs and community carers with customisable specialty-specific templates</li>
-                            </ul>
-
-                            <a href="https://dischargedb.core.wits.ac.za/" target="_blank"><button>ED Login</button></a>
+                   
+                        <h1 style="color: black; text-align: center; font-size: 5em; margin-top: 2em"><b> Health Informatics as a Service</b></h1>
+                        <b><hr style="width: 100%; height: 2px; background: #12C97A;"></b>
+                        <p style="color: black; text-align: center; font-size: 3em; margin-bottom: 2em">
+                            Faculty of Health Sciences, University of the Witwatersrand, Johannesburg, South Africa.
                         </p>
-                        <br/><br/>
 
-                        <h3>Why use DataDoc?</h3>
-                        <p id="card-text">
-                                The following are some key reasons why clinicians use DataDoc:
-                                <ul>
-
-                                    <li><b>Document Digitally</b></li>
-                                    Replace your out of date paper records with an easy-to-use digital system.
-
-                                    <li><b>Keep track of visit statistics</b></li>
-                                    Clinical reports and statistics can be generated to give you the answers you need.
-
-                                    <li><b>Patient Search</b></li>
-                                    Find the patient you're looking for using their name, contact information, file number, ICD10 codes and other case data.
-
-                                    <li><b>Easy and fast</b></li>
-                                    Easy-to-use data management tool for clinicians.
-
-                                    <li><b>Data import</b></li>
-                                    Everyday, a massive amount of digital data points are generated from countless personal medical devices, such as blood glucose monitors and insulin pumps.
-
-                                    <li><b>Data export</b></li>
-                                    Manages weekly and monthly reports and therefore you can download them.
-                                </ul>
-
-                                <a href="https://www.ebisu.co.za/" target="_blank"><button class="btn btn-success">DataDoc Login</button></a><br/><br/><br/><br/>
-                        </p>
-                    </div>
-            
+                    <p style="text-align: center "><a href="about.html"><button class="btn btn-outline-success" style="background-color: #0B2C41; font-size: 1.2em">Read More</button></a></p>
                 </div>
             </div>
-            
+
         </div>
-        
-    </body>
+
+    </div>
+
+
+</div>
+
+</body>
 </html>
