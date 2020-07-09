@@ -845,7 +845,7 @@ div#navbarNavDropdown {
 }
 
 .post-slider .post-wrapper .post{
-  height: 100px;
+  height: 150px;
   width: 200px;
   margin: 0px 10px;
   display: inline-block;
@@ -861,9 +861,10 @@ div#navbarNavDropdown {
 
 .post-slider .post-wrapper .post .slider-image{
   width: 100%;
-  height: 100px;
+  height: 130px;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
+  padding: 10px;                            /* Giving the image slider the padding to fit better */
 }
 
 
