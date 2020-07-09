@@ -820,7 +820,7 @@ div#navbarNavDropdown {
 
 .post-slider .next{
   position: absolute;
-  top: 50%;
+  top: 60%;
   right: 30px;            /* Putting it on the right side */
   font-size: 2em;
   color: #006669;
@@ -829,7 +829,7 @@ div#navbarNavDropdown {
 
 .post-slider .prev{
   position: absolute;
-  top: 50%;
+  top: 60%;
   left: 30px;             /* Putting it on the left side */
   font-size: 2em;
   color: #006669;
