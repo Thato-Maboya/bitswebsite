@@ -898,17 +898,17 @@ line-height: 1.3rem;
 @media (min-width: 1024px) and (max-width: 2560px) {
   /*REDCap Africa day*/
   .day{
-    width: 80%;
+    width: 75%;
     height: 900px;
-    margin: 30px auto 30px;
+    margin: 40px auto 40px;
   }
   .day img{
-    width: 75%;
-    height: 800px;
+    width: 70%;
+    height: 750px;
   }
   .redcap_message{
-    width: 80%;
-    margin: 30px auto 30px;
+    width: 75%;
+    margin: 40px auto 40px;
     background-color: white;
     color: black;
   }
