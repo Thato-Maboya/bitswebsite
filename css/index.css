@@ -983,6 +983,20 @@ line-height: 1.3rem;
 }
 
 @media (min-width: 300px) and (max-width: 424px) {
+   .health {
+        color: black;
+        text-align: center;
+        font-size: unset;
+        margin-top: unset;
+        word-break: keep-all;
+    }
+    .health_faculty {
+        color: black;
+        text-align: center;
+        font-size: unset;
+        margin-bottom: unset;
+        word-break: keep-all;
+    }
 
   .cardL{
     min-height: 500px;
