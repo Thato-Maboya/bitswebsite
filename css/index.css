@@ -986,15 +986,15 @@ line-height: 1.3rem;
    .health {
         color: black;
         text-align: center;
-        font-size: unset;
-        margin-top: unset;
+        font-size: 2em;
+        margin-top: 1em;
         word-break: keep-all;
     }
     .health_faculty {
         color: black;
         text-align: center;
-        font-size: unset;
-        margin-bottom: unset;
+        font-size: 1.5em;
+        margin-bottom: 2em;
         word-break: keep-all;
     }
 
