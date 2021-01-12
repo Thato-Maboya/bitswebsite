@@ -534,6 +534,22 @@ div#navbarNavDropdown {
   background: #f8f9fa;
   z-index: 99;
 }
+
+.health {
+    color: black; 
+    text-align: center; 
+    font-size: 5em; 
+    margin-top: 2em;
+    word-break: keep-all;
+}
+.health_faculty {
+    color: black;
+    text-align: center;
+    font-size: 3em;
+    margin-bottom: 2em;
+    word-break: keep-all;
+}
+
 @media screen and (max-width: 1200px) {
   .logo {
     margin-top: 0px;
