@@ -6,12 +6,12 @@ function Slider() {
 
 function goToResearch(){
     console.log("click works");
-    document.location = "/bitswebsite/research_info.html";
+    document.location = "/research_info.html";
 }
 
 function goToService(){
     console.log("click works");
-    document.location = "/bitswebsite/service_info.html";
+    document.location = "/service_info.html";
 }
 
 
