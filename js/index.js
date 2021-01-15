@@ -6,14 +6,13 @@ function Slider() {
 
 function goToResearch(){
     console.log("click works");
-    document.location = "/research_info.html";
+    document.location = "/bitswebsite/research_info.html";
 }
 
 function goToService(){
     console.log("click works");
-    document.location = "/service_info.html";
+    document.location = "/bitswebsite/service_info.html";
 }
-
 
 
 // Hiding the menu navbar-toggle when you click outside the menu bar
